@@ -71,6 +71,11 @@ namespace OrmTest
                 SqlExpression<Person> resultThree = db.From<Person>().Where("Age > 20").Select(); // Mapowanie zapytań
 
                 /*
+                 * Odświeżenie kluczy obcych
+                 */
+                db.LoadReferences(resultOne);
+
+                /*
                  * Wydrukowanie zapytania na konsole
                  */
                 Console.WriteLine(resultThree.ToSelectStatement().ToString());
