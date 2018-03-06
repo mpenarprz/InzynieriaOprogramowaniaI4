@@ -1,3 +1,4 @@
+# Some extensions
 *.xlsx
 *.docx
 *.doc
@@ -7,3 +8,9 @@
 *.bmp
 *.tmp
 *..~vsdx
+
+# OrmTest
+Laboratorium\src\OrmTest\bin
+Laboratorium\src\OrmTest\obj
+Laboratorium\src\OrmTest\packages
+Laboratorium\src\OrmTest\.vs
