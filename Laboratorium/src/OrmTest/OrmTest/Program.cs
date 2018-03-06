@@ -11,7 +11,14 @@ namespace OrmTest
 
         static void Main(string[] args)
         {
+            /*
+             * Tworzymy obiekt pomocniczy do otwierania połączeń do BD
+             */
             var dbFactory = new OrmLiteConnectionFactory(ConnectionString, SqliteDialect.Provider);
+
+            /*
+             * Otwieramy połączenie do bazy danych - najbardziej istotny fragment kodu
+             */
             using (var db = dbFactory.Open())
             {
                 /*
