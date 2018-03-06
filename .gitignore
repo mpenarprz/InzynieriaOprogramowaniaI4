@@ -10,7 +10,7 @@
 *..~vsdx
 
 # OrmTest
-Laboratorium\src\OrmTest\bin
-Laboratorium\src\OrmTest\obj
-Laboratorium\src\OrmTest\packages
-Laboratorium\src\OrmTest\.vs
+Laboratorium/src/OrmTest/OrmTest/bin
+Laboratorium/src/OrmTest/OrmTest/obj
+Laboratorium/src/OrmTest/packages
+Laboratorium/src/OrmTest/.vs
