@@ -1,0 +1,1 @@
+# Repozytorium na potrzeby laboratoriów z Inżynierii Oprogramowania
