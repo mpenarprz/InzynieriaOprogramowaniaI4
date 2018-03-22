@@ -1,5 +1,4 @@
 # Some extensions
-*.xlsx
 *.jpg
 *.png
 *.bmp
@@ -12,3 +11,6 @@ Laboratorium/src/OrmTest/OrmTest/bin
 Laboratorium/src/OrmTest/OrmTest/obj
 Laboratorium/src/OrmTest/packages
 Laboratorium/src/OrmTest/.vs
+
+# doc
+Laboratorium/docx/Z1_Futyma.doc
